@@ -2,12 +2,11 @@ package me.mxcsyounes.templateapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+class MainActivity : AppCompatActivity() {
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 }
+
